@@ -1,0 +1,136 @@
+------------------Linux's Commands-------------------------
+/----------------root
+ln---------------use to shair the folder
+cd---------------current directery
+cd . ------------current directery
+cd .. -----------go to previews directery
+cd filename -----go to the file or directery name
+pwd---------------stand for 'print working directery'------current directery location
+ls ---------------current location
+cat --------------directery category
+| ----------------out put for one command to another command
+>-----------------write the output from command to file and if we run agian the command than last names is deleted and next files are write again and save automatically
+>>----------------Write and append the data from command's output and if we run again the command than the names are appended in the last
+more--------------more is a command which is return of more detail output in this case we can't up the cmd
+help -------------for detial of any command 
+less j.text ------this is the advance command of more command
+ls --help | more---for detailing the ls command and for 
+ls > j.txt ------   > means the output save in j.txt file this command is use for just write the file names not append
+ls >> j.txt ---------thats means the output of ls is save and append the output in j.txt file
+rm filename----------rm means remove the file from our pc
+rm -r directeryname----remove the directery and all of the files in the directery
+rm -rf directeryname----remove a directery recursively without our permision
+cp -----------------copy the file from one directery or another directery
+mv -----------------moving the file from one directery to another directery
+head---------------- for printing first 10 lines in the file
+head -n -5 filename-------for printing first 5 lines in the file
+tail----------------for printing last 10 lines in the file
+tail -n -5 filename-------for printing 5 last lines in the file
+touch filename-------create file in our current directry
+mkdir----------------this command is use to create the directery or folder in our present location
+cat filename---------for reading the file
+cat > filename-------for creating new file and also write something if file is exist than preview data remove and present data save
+cat >> filename------for creating new file and also write something if file is exist already than preview data save and in the end present data also save
+cntl+g -------------this is for exit command to exit the cat command
+nano filename---------------nano is a text editer in the linux
+cntl+x--------------this is for exit command of nano editer
+ed filename---------this is the editer
+	p-------shows the last line of the file
+	w-------write the text which we write in the file
+	a-------append the text which we write in the file
+vi filename---------this is the editer
+mcedit
+emacs filename-------this is also the editer in the linux
+midnight------------this is the editer and this is the important editer in linux
+mount----------------mount is mounted the files one place to another place.----mount command is shown all the cachy files and current files which run currently
+sudo mount path------mount the files one place to another place
+sudo unmount pathname---unmounted the files or folders 
+sudo-----------------sudo command is manager in lunux
+sudo-----------------sudo is a temprary superuser which acces the root tempararaly
+sudo install apk appname-----for installing any of the woftware
+mount filenameOrFolderpath3 /mountpoint
+user permissions----------rwx----r means read-----w means write-----x means execute
+user Group permissions----r_x----r means read-----_means not write---x means execute
+other users permissions---r__----r means read-----_ means not write--_ means not execute
+commands of chmod:	
+	u + r
+	u + w
+	u + x
+	u - r
+	u - w
+	u - x
+	u + rwx
+	u - rwx
+	u + 111
+	u - 000
+	754
+	g + rwx
+	g - rwx
+	o + rwx
+	o - rwx
+	a + rwx
+	a - rwx
+	a means all ----user+group+ others
+	a=rwx
+	
+	
+	
+chmod command filename
+chown
+umask----------------this is for accessing the default access of the permissions
+_--------------------_ means file
+d--------------------d means directery
+groups--------------- groups command is used for knowing the group
+users----------------users command is used for knowing the user which is currently active
+id ------------------for knowing the id we use id command
+who -----------------this is use for knowing the current terminal logedin of user
+w--------------------for knowing the what is the shall is used currently
+su-------------------login for root user
+sudo adduser username-------------for add new user
+sudo addgroup groupname------------for add new group
+sudo deluser username-------------for delete the user
+sudo delgroup groupname------------for delete the group
+su - otherusername -------this command is used for login the otheruser
+sudo usermod man----checking the all commands and histry
+sudo usermod -a -G sudo otherusername-----user add membership on the group sudo
+sudo usermod -g jawad otherusername-------add the primary group for otheruser
+man chown-----------for knowing the commands of chown
+sudo chown group:user filename------------for assinging the ownership for other group and user in the specific file or folder
+
+ls -R
+	this command is use to check the total path and total details
+date
+	this command is check the current date of the system
+grep
+	this command is use to search the contect of the file
+cat abc.txt | grep content
+cat abc.txt | grep -v content
+cat abc.txt | grep -c content
+cat abc.txt | grep -n content
+cat abc.txt | sort -r
+	this command is use to sort the content of the file
+cat < file.txt
+	this command is use to input the file 
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
