@@ -1,6 +1,6 @@
-------------------Linux's Commands-------------------------
+--------------------------------------------------------Linux's Commands-----------------------------------------------------------------
 /----------------root
-ln---------------use to shair the folder
+ln---------------use to see the folder details
 cd---------------current directery
 cd . ------------current directery
 cd .. -----------go to previews directery
@@ -111,7 +111,19 @@ cat abc.txt | sort -r
 	this command is use to sort the content of the file
 cat < file.txt
 	this command is use to input the file 
+
+ssh -i kp_mail.pem ubuntu@3.209.194.206
+	connected server to local pc
+
+sudo -u postgres psql
 	
+wget -0 - url
+apt-get update && apt-get install odoo
+
+sudo dpkg -i file_url_locally
+
+sudo wget -0 - url_which_we_download.key | sudo apt -key add -
+	this command is first of all download the url file and then go to sudo apt-key add -	command and run this commad 
 
 
 
